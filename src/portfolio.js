@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Rishabh Tyagi",
+  title: "Hi all, I'm Rishabh",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1YzqsLb79I6wvq8pEuSeYB0JFf5zpHOqC/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/rishabhtyagi18",
+  linkedin: "https://www.linkedin.com/in/rishabh-tyagi-4256a2a0/",
+  gmail: "rishabhtyagi18@gmail.com",
+  gitlab: "https://gitlab.com/rishabhtyagi18",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -65,15 +62,15 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
+      skillName: "Sass",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
@@ -81,7 +78,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "Reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
@@ -89,32 +86,45 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
+    },
+    {
+      skillName: "CI/CD",
+      fontAwesomeClassname: "fab fa-codepen"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
+      skillName: "Ajax",
+      fontAwesomeClassname: "fab fa-codepen"
+    },
+    {
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Redux",
+      fontAwesomeClassname: "fab fa-codepen"
+    },
+    ,
+    {
+      skillName: "Sitemap",
+      fontAwesomeClassname: "fab fa-codepen"
+    },
+    {
+      skillName: "SEO",
+      fontAwesomeClassname: "fab fa-codepen"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +136,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Galgotias College Of Engineering & Technology",
+      logo: require("./assets/images/galgotia_logo.png"),
+      subHeader: "Master of Computer Application",
+      duration: "July 2016 - JUne 2018",
+      // desc: "Participated in the research of XXX and published 3 papers.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Mohanlal Sukhadia University",
+      logo: require("./assets/images/mlsu_logo.jpeg"),
+      subHeader: "Bachelor of Computer Application",
+      duration: "July 2013 - June 2016",
+      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -174,10 +184,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      role: "Senior Software Engineer",
+      company: "Gomechanic",
+      companylogo: require("./assets/images/gomech_logo.png"),
+      date: "May 2019 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -185,18 +195,11 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Developer Intern",
+      company: "SimbaLabs",
+      companylogo: require("./assets/images/briefcase.png"),
+      date: "Sept 2018 – April 2019",
+      desc: "An innovative and ambitious initiative which envisages Child Health Screening and Early Intervention Services."
     }
   ]
 };
@@ -212,29 +215,62 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/gomech_logo.png"),
+      projectName: "Retail Ecommerce Website",
+      projectDesc: "Full designing and development of Gomechanic retail website (India & Malaysia), accessories and spares. Leveraging the React server side, ES6, Redux, Webpack, Babel, Node JS, Firebase, JavaScript, HTML5, CSS and mobile responsiveness. Leveraging third party tools like User stack, True caller, Razor pay for better user experience and data analytics. Supporting 20 Lacs+ URLs for SEO, Marketing and organic traffic",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://gomechanic.in/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/gomech_logo.png"),
+      projectName: "Central Dashboard",
+      projectDesc: "Internally managed leads, escalations, garage onboarding, spares onboarding, accessory escalations, coupons, parts, user role creation, orders, retailer distributor, and integration are all developed and integrated.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://central.dashboard.gomechanic.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/gomech_logo.png"),
+      projectName: "CMS (Content Management System)",
+      projectDesc: "Establishment of dynamic pages, creation of a CMS for dynamic content, rate control, coupon control, slot control, car data control, city level control, and control over SEO data",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://dev.center.gomechanic.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/gomech_logo.png"),
+      projectName: "PWA APPS (Paytm & PhonePe)",
+      projectDesc: "Development and integration of Gomechanic's PWA apps with a variety of clients for a seamless checkout process and payment gateway",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "https://central.dashboard.gomechanic.app/"
+      //   }
+      // ]
+    },
+    {
+      image: require("./assets/images/gomech_logo.png"),
+      projectName: "OrderTracking System",
+      projectDesc: "The establishment of an order-tracking system for use with WhatsApp, Mail, and SMS that includes real-time order tracking, order history, escalation creation, adding additional vehicles, profiles, referrals, payment choices, and invoicing",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://ordertracking.gomechanic.in/"
         }
       ]
     }
@@ -318,7 +354,7 @@ const blogSection = {
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      url: "",
       title: "Why REACT is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
@@ -338,9 +374,9 @@ const talkSection = {
   talks: [
     {
       title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      subtitle: "",
+      slides_url: "",
+      event_url: ""
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -354,7 +390,7 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    ""
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -363,8 +399,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+917733644937",
+  email_address: "rishabhtyagi18@gmail.com"
 };
 
 // Twitter Section
