@@ -139,7 +139,7 @@ const educationInfo = {
       schoolName: "Galgotias College Of Engineering & Technology",
       logo: require("./assets/images/galgotia_logo.png"),
       subHeader: "Master of Computer Application",
-      duration: "July 2016 - JUne 2018",
+      duration: "July 2016 - JUne 2018"
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -150,7 +150,7 @@ const educationInfo = {
       schoolName: "Mohanlal Sukhadia University",
       logo: require("./assets/images/mlsu_logo.jpeg"),
       subHeader: "Bachelor of Computer Application",
-      duration: "July 2013 - June 2016",
+      duration: "July 2013 - June 2016"
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -221,7 +221,8 @@ const bigProjects = {
     {
       image: require("./assets/images/gomech_logo.png"),
       projectName: "Retail Ecommerce Website",
-      projectDesc: "Full designing and development of Gomechanic retail website (India & Malaysia), accessories and spares. Leveraging the React server side, ES6, Redux, Webpack, Babel, Node JS, Firebase, JavaScript, HTML5, CSS and mobile responsiveness. Leveraging third party tools like User stack, True caller, Razor pay for better user experience and data analytics. Supporting 20 Lacs+ URLs for SEO, Marketing and organic traffic",
+      projectDesc:
+        "Full designing and development of Gomechanic retail website (India & Malaysia), accessories and spares. Leveraging the React server side, ES6, Redux, Webpack, Babel, Node JS, Firebase, JavaScript, HTML5, CSS and mobile responsiveness. Leveraging third party tools like User stack, True caller, Razor pay for better user experience and data analytics. Supporting 20 Lacs+ URLs for SEO, Marketing and organic traffic",
       footerLink: [
         {
           name: "Visit Website",
@@ -233,7 +234,8 @@ const bigProjects = {
     {
       image: require("./assets/images/gomech_logo.png"),
       projectName: "Central Dashboard",
-      projectDesc: "Internally managed leads, escalations, garage onboarding, spares onboarding, accessory escalations, coupons, parts, user role creation, orders, retailer distributor, and integration are all developed and integrated.",
+      projectDesc:
+        "Internally managed leads, escalations, garage onboarding, spares onboarding, accessory escalations, coupons, parts, user role creation, orders, retailer distributor, and integration are all developed and integrated.",
       footerLink: [
         {
           name: "Visit Website",
@@ -244,7 +246,8 @@ const bigProjects = {
     {
       image: require("./assets/images/gomech_logo.png"),
       projectName: "CMS (Content Management System)",
-      projectDesc: "Establishment of dynamic pages, creation of a CMS for dynamic content, rate control, coupon control, slot control, car data control, city level control, and control over SEO data",
+      projectDesc:
+        "Establishment of dynamic pages, creation of a CMS for dynamic content, rate control, coupon control, slot control, car data control, city level control, and control over SEO data",
       footerLink: [
         {
           name: "Visit Website",
@@ -255,7 +258,8 @@ const bigProjects = {
     {
       image: require("./assets/images/gomech_logo.png"),
       projectName: "PWA APPS (Paytm & PhonePe)",
-      projectDesc: "Development and integration of Gomechanic's PWA apps with a variety of clients for a seamless checkout process and payment gateway",
+      projectDesc:
+        "Development and integration of Gomechanic's PWA apps with a variety of clients for a seamless checkout process and payment gateway"
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -266,7 +270,8 @@ const bigProjects = {
     {
       image: require("./assets/images/gomech_logo.png"),
       projectName: "OrderTracking System",
-      projectDesc: "The establishment of an order-tracking system for use with WhatsApp, Mail, and SMS that includes real-time order tracking, order history, escalation creation, adding additional vehicles, profiles, referrals, payment choices, and invoicing",
+      projectDesc:
+        "The establishment of an order-tracking system for use with WhatsApp, Mail, and SMS that includes real-time order tracking, order history, escalation creation, adding additional vehicles, profiles, referrals, payment choices, and invoicing",
       footerLink: [
         {
           name: "Visit Website",
@@ -389,9 +394,7 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    ""
-  ],
+  podcast: [""],
   display: true // Set false to hide this section, defaults to true
 };
 
