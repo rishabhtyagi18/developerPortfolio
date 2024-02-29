@@ -1,74 +1,75 @@
 {
-  "data": {
-    "user": {
-      "name": "Rishabh Tyagi",
-      "bio": "Full Stack Software Developer 🚀 | Software Engineer @rishabhTyagi",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/41332162?v=4",
-      "location": "Gurugram, Haryana",
-      "pinnedItems": {
-        "totalCount": 6,
-        "edges": [
-          {
-            "node": {
-              "name": "Moksh Art Gallery",
-              "description": "🚀 An art gallery is a place where one can see and buy artworks by emerging, established or master artists. It's important to keep in mind that a gallery is not a shop, but a meeting point for art lovers.",
-              "url": "https://artgallery-kappa.vercel.app/",
-              "diskUsage": 26102,
-              "primaryLanguage": {
-                "name": "React",
-                "color": "#f1e05a"
+    "data": {
+      "user": {
+        "name": "Rishabh Tyagi",
+        "bio": "Full Stack Software Developer 🚀 | Software Engineer @rishabhTyagi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41332162?v=4",
+        "location": "Gurugram, Haryana",
+        "pinnedItems": {
+          "totalCount": 4,
+          "edges": [
+            {
+              "node": {
+                "name": "Moksh Art Gallery",
+                "description": "🚀 An art gallery is a place where one can see and buy artworks by emerging, established or master artists. It's important to keep in mind that a gallery is not a shop, but a meeting point for art lovers.",
+                "url": "https://artgallery-kappa.vercel.app/",
+                "diskUsage": 26102,
+                "primaryLanguage": {
+                  "name": "React",
+                  "color": "#f1e05a"
+                }
+              }
+            },
+            {
+              "node": {
+                "name": "Altstar",
+                "description": "🔥 Outline the potential for rental income and appreciation in property value over time, providing a compelling case for investment.",
+                "forkCount": 137,
+                "stargazers": {
+                  "totalCount": 781
+                },
+                "url": "https://altstar.vercel.app/",
+                "id": "MDEwOlJlcG9zaXRvcnkyMzUwNTIwMDE=",
+                "diskUsage": 35575,
+                "primaryLanguage": {
+                  "name": "React",
+                  "color": "#f1e05a"
+                }
+              }
+            },
+            {
+              "node": {
+                "name": "Qfund",
+                "description": "🤖 QFundTMprovides a complete solution for managing the Payday loan transactions for loans that are disbursed to borrowers in return for checks drawn",
+                "url": "https://qfunduiuxqa.qfund.net/",
+                "id": "MDEwOlJlcG9zaXRvcnkyMTU1NDg3ODY=",
+                "diskUsage": 2139,
+                "primaryLanguage": {
+                  "name": "React",
+                  "color": "#f1e05a"
+                }
+              }
+            },
+            {
+              "node": {
+                "name": "Trust43",
+                "description": "🎉 Empower Homebuyers with ease of Information",
+                "forkCount": 10,
+                "stargazers": {
+                  "totalCount": 39
+                },
+                "url": "https://trust43.com",
+                "id": "MDEwOlJlcG9zaXRvcnkxOTMwMzQ1ODI=",
+                "diskUsage": 27697,
+                "primaryLanguage": {
+                  "name": "React",
+                  "color": "#f1e05a"
+                }
               }
             }
-          },
-          {
-            "node": {
-              "name": "Altstar",
-              "description": "🔥 Outline the potential for rental income and appreciation in property value over time, providing a compelling case for investment.",
-              "forkCount": 137,
-              "stargazers": {
-                "totalCount": 781
-              },
-              "url": "https://altstar.vercel.app/",
-              "id": "MDEwOlJlcG9zaXRvcnkyMzUwNTIwMDE=",
-              "diskUsage": 35575,
-              "primaryLanguage": {
-                "name": "React",
-                "color": "#f1e05a"
-              }
-            }
-          },
-          {
-            "node": {
-              "name": "Qfund",
-              "description": "🤖 QFundTMprovides a complete solution for managing the Payday loan transactions for loans that are disbursed to borrowers in return for checks drawn",
-              "url": "https://qfunduiuxqa.qfund.net/",
-              "id": "MDEwOlJlcG9zaXRvcnkyMTU1NDg3ODY=",
-              "diskUsage": 2139,
-              "primaryLanguage": {
-                "name": "React",
-                "color": "#f1e05a"
-              }
-            }
-          },
-          {
-            "node": {
-              "name": "Trust43",
-              "description": "🎉 Empower Homebuyers with ease of Information",
-              "forkCount": 10,
-              "stargazers": {
-                "totalCount": 39
-              },
-              "url": "https://trust43.com",
-              "id": "MDEwOlJlcG9zaXRvcnkxOTMwMzQ1ODI=",
-              "diskUsage": 27697,
-              "primaryLanguage": {
-                "name": "React",
-                "color": "#f1e05a"
-              }
-            }
-          }
-        ]
+          ]
+        }
       }
     }
   }
-}
+  
