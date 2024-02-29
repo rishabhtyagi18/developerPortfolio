@@ -17,6 +17,21 @@
   font-weight: 400;
 }
 
+.profile-image {
+  border-radius: 50%;
+  border: 0.5rem solid $githubProfileCardBorder;
+  margin-left: auto;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  box-shadow: $lightBoxShadow 0 30px 30px -30px;
+  transition: all 0.3s ease-out;
+}
+
+.profile-image:hover {
+  box-shadow: none;
+}
+
 .contact-detail,
 .contact-detail-email {
   margin-top: 20px;
@@ -52,6 +67,13 @@
   margin-top: -4rem;
 }
 
+.image-content-profile {
+  text-align: right;
+  flex: 20%;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Media Query */
 @media (max-width: 1380px), (max-width: 768px) {
   .contact-title {
@@ -63,6 +85,25 @@
   .contact-title {
     font-size: 40px;
     text-align: center;
+  }
+
+  .profile-image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+  }
+
+  .image-content-profile {
+    margin-left: auto;
+    margin-right: auto;
+    order: 1;
+  }
+
+  .profile-image:hover {
+    box-shadow: $lightBoxShadow 0 50px 50px -50px;
+    transition: 0.3s ease-out;
   }
 
   .contact-subtitle {
