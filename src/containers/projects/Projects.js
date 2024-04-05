@@ -60,7 +60,7 @@ export default function Projects() {
                 "description": "🤖 QFundTMprovides a complete solution for managing the Payday loan transactions for loans that are disbursed to borrowers in return for checks drawn",
                 "url": "https://qfunduiuxqa.qfund.net/",
                 "id": "MDEwOlJlcG9zaXRvcnkyMTU1NDg3ODY=",
-                "diskUsage": 2139,
+                "diskUsage": 97697,
                 "primaryLanguage": {
                   "name": "React",
                   "color": "#f1e05a"

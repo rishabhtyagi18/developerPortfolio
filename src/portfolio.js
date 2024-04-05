@@ -148,7 +148,7 @@ const educationInfo = {
     },
     {
       schoolName: "Mohanlal Sukhadia University",
-      logo: require("./assets/images/mlsu_logo.jpeg"),
+      logo: require("./assets/images/mlsu_logo.webp"),
       subHeader: "Bachelor of Computer Application",
       duration: "July 2013 - June 2016"
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
@@ -188,10 +188,11 @@ const workExperiences = {
       company: "Gomechanic",
       companylogo: require("./assets/images/gomech_logo.png"),
       date: "May 2019 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Currently on a mission to work with cutting-edge technology, with a focus on growth and performance.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "A qualified expert with five years of coding experience who facilitates cutting-edge solutions with a broad variety of applications and technological know-how.",
+        "Proven ability to construct interactive, user-centered systems using front-end stack and experience as well as proficiency in designing and managing complex system architectures.",
+        "Project management, server management, and product development expertise."
       ]
     },
     {
